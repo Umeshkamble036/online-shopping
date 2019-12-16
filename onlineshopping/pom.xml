@@ -13,6 +13,12 @@
 		<spring.version>4.3.23.RELEASE</spring.version>
 	</properties>
 	<dependencies>
+		<!-- Link Backend Project -->
+		<dependency>
+			<groupId>com.uk</groupId>
+			<artifactId>shoppingbackend</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
 		<!-- JSTL Dependency -->
 		<!-- https://mvnrepository.com/artifact/org.springframework/spring-webmvc -->
 		<dependency>
