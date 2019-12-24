@@ -1,0 +1,12 @@
+H2 DATABASE
+
+http://192.168.0.103:8082/login.jsp?jsessionid=dd6e93be7886cf9d44d887f09cdd213f
+
+DRIVER::org.h2.Driver
+
+URL::jdbc:h2:tcp://localhost/~/test
+URL::jdbc:h2:tcp://localhost/~/onlineshopping
+
+USR:: sa
+
+PWD::

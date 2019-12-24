@@ -15,9 +15,13 @@
 
 	<ctx:component-scan
 		base-package="com.uk.onlineshopping.controller" />
+	
+	<ctx:component-scan base-package="com.uk.shoppingbackend.config"></ctx:component-scan>
 
 	<ctx:component-scan
-		base-package="com.uk.shoppingbackend.daoImpl" />
+		base-package="com.uk.shoppingbackend" />
+		
+	
 
 	<bean id="viewResolver"
 		class="org.springframework.web.servlet.view.InternalResourceViewResolver">
