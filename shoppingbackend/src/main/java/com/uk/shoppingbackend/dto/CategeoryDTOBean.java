@@ -15,12 +15,13 @@ public class CategeoryDTOBean {
 	private int id;
 
 	private String name;
-	@Column(name = " image_url")
+	
+	@Column(name = "IMAGE_URL")
 	private String imageURL;
 
 	private String description;
 	
-	@Column(name = "is_active")
+	@Column(name = "IS_ACTIVE")
 	private boolean active = true;
 
 	public CategeoryDTOBean() {
